@@ -13,6 +13,7 @@ const counterStore = useCounterStore();
     <button @click="counterStore.incrementBy(1)">+ 1</button>
     <button @click="counterStore.incrementBy(2)">+ 2</button>
     <button @click="counterStore.incrementBy(5)">+ 5</button>
+    <button @click="counterStore.resetBy()">Reset</button>
   </div>
 </template>
 
@@ -28,6 +29,7 @@ const counterStore = useCounterStore();
     border-radius: 0.4rem;
     transition: all .3s ease;
     cursor: pointer;
+    box-shadow: 2px 2px 10px #b9b9b9;
     &:hover {
       background-color: deepskyblue;
     }

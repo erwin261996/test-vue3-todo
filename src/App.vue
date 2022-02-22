@@ -13,6 +13,10 @@
     <router-link to="/">Go to Home</router-link>
     {{' '}}
     <router-link to="/about">Go to About</router-link>
+    {{' '}}
+    <router-link to="/todo">Go to Todo</router-link>
+    {{' '}}
+    <router-link to="/reactivity">Go to Reactivity VueTest</router-link>
   </p>
   <router-view></router-view>
 </template>
