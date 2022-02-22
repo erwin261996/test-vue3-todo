@@ -20,7 +20,17 @@ const counterStore = useCounterStore();
 .d-flex {
   display: flex;
   & button {
-      margin-right: 1rem
+    margin-right: 1rem;
+    padding: 10px;
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+    color: #FFF;
+    border-radius: 0.4rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    &:hover {
+      background-color: deepskyblue;
     }
+  }
 }
 </style>
